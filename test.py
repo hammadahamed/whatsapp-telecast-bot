@@ -8,7 +8,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--user-data-dir=Users\\hammad\\AppData\\Local\\Google\\Chrome\\User Data\\Default')
 options.add_argument('--profile-directory=Default')
 
-# initializing Chrome Driver
+# initializing Chrome Driver .
 chromeBrowser = webdriver.Chrome(executable_path='F:\\webdriver\\chromedriver', options=options)
 
 # launching whatsapp site
